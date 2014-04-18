@@ -70,6 +70,12 @@ let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 		\ , 'scrollpercent'
 	\ ),
 	\
+	\ Pl#Theme#Buffer('tagmabufmgr'
+		\ , ['static_str.name', 'TagmaBufMgr']
+		\ , Pl#Segment#Truncate()
+		\ , Pl#Segment#Split()
+	\ ),
+	\
 	\ Pl#Theme#Buffer('minibufexplorer'
 		\ , ['static_str.name', 'MiniBufExplorer']
 		\ , Pl#Segment#Truncate()

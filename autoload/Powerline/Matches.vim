@@ -8,6 +8,7 @@ let g:Powerline#Matches#matches = {
 	\ 'gundo_tree'      : Pl#Match#Add('bufname(winbufnr(a:window))', '^__Gundo__$'),
 	\ 'lustyexplorer'   : Pl#Match#Add('bufname(winbufnr(a:window))', '\[LustyExplorer\-Buffers\]'),
 	\ 'minibufexplorer' : Pl#Match#Add('bufname(winbufnr(a:window))', '^\-MiniBufExplorer\-$'),
+	\ 'tagmabufmgr'     : Pl#Match#Add('bufname(winbufnr(a:window))', '^_TagmaBufMgr_$'),
 	\ 'tagbar'          : Pl#Match#Add('getwinvar(a:window, "&ft")' , '^tagbar$'),
 	\ 'nerdtree'        : Pl#Match#Add('getwinvar(a:window, "&ft")' , '^nerdtree$'),
 \ }
